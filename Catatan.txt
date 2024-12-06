@@ -1,0 +1,26 @@
+Pulau Sulawesi
+set lon 118.5  125.5
+set lat -6 2
+
+rgb(227 143 78)
+
+set clevs 0.1 0.3 0.5 0.7 1.0 1.5 2.0 3.0
+
+
+
+ga-> set lon 118.5  125.5
+LON set to 118.5 125.5
+ga-> set lat -6 2
+LAT set to -6 2
+ga-> set rgb 20 227 143 78
+ga-> set ccols 2 3 4 5 6 7
+Number of ccols = 6
+ccols won't take effect unless clevs are set.
+ga-> set clevs 0 10 20 30 40 50
+Number of clevs = 6
+ga-> set ccolor 250
+ccolor = 250
+set gxout shaded
+ga-> d precip
+Contouring at clevs =  0 10 20 30 40 50
+ga-> cbarn
